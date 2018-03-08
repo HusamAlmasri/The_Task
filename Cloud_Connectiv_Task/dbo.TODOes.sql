@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[TODOes] (
+    [ID]          INT            IDENTITY (1, 1) NOT NULL,
+    [NAME]        NVARCHAR (50)  NULL,
+    [DESCRIPTION] NVARCHAR (500) NULL,
+    CONSTRAINT [PK_dbo.TODOes] PRIMARY KEY CLUSTERED ([ID] ASC)
+);
+
